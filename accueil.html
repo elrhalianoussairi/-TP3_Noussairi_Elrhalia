@@ -33,6 +33,71 @@
         </div>
     </nav>
 
+        <!-- Section 1 -->
+     <main id="content" class="container-xl mt-5">
+        <section class="row align-items-center nutrimaroc-slider">
+            <div class="col-12 col-md-5 mb-5">
+                <h1 class="slide-title"><strong>NutriMaroc</strong></h1>
+                <h4 class="slide-subtitle">Saveurs marocaines, santé et tradition</h4>
+                <p>
+                    Découvrez le meilleur de la cuisine marocaine : tajines parfumés, couscous dorés et desserts sucrés
+                    à la fleur d’oranger.
+                    Chaque recette allie goût, équilibre et bien-être.
+                </p>
+                <p>
+                    Explorez nos plats typiques et nos conseils nutrition inspirés de la richesse du terroir marocain.
+                </p>
+                <form class="d-flex align-items-center slide-form">
+                    <select class="form-select" aria-label="Choisir ma catégorie">
+                        <option selected>Choisir une catégorie</option>
+                        <option value="tajine">Tajines</option>
+                        <option value="couscous">Couscous</option>
+                        <option value="dessert">Desserts marocains</option>
+                    </select>
+                    <button type="submit" class="btn btn-explorer ms-2">Explorer</button>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-7">
+                <div id="carousel-NutriMaroc" class="carousel slide shadow-lg rounded-3 overflow-hidden">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner ratio ratio-16x9">
+                        <div class="carousel-item active">
+                            <img src="images/slide1.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Tajine marocain traditionnel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Couscous aux légumes et pois chiches">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Pastilla sucrée-salée au poulet et amandes">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-NutriMaroc"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-NutriMaroc"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -43,7 +108,7 @@
         <footer class="footer text-white mt-5">
             <div class="container">
                 <div class="row text-center text-md-start align-items-center">
-                    
+
                     <div class="col-md-4 mb-4">
                         <div class="footer__logo mb-3">
                             <img src="images/logo.png" alt="Logo NutriMaroc" width="80">
