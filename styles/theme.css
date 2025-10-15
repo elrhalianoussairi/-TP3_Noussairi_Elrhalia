@@ -1,0 +1,36 @@
+/* ---------------------
+   THÈME NUTRIMAROC
+----------------------*/
+:root {
+  --couleur-primaire: #e67e22;
+  --couleur-secondaire: #c0392b;
+  --couleur-accent: #f1c40f;
+  --fond-fonce: #2c3e50;
+  --fond-clair: #ffffff;
+  --texte-clair: #f8f9fa;
+  --texte-fonce: #2d3436;
+}
+
+body {
+  font-family: var(--font-principale);
+  color: var(--texte-fonce);
+  background-color: var(--fond-clair);
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-secondaire);
+  color: var(--couleur-secondaire);
+}
+
+a {
+  color: var(--couleur-primaire);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--couleur-secondaire);
+}
