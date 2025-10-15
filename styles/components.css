@@ -1,0 +1,60 @@
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  background-color: var(--fond-clair);
+  padding: 3px;
+}
+
+footer.footer {
+  background-color: var(--fond-fonce);
+  color: var(--texte-clair);
+  font-size: 0.95rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* Ligne dorée décorative */
+.footer__divider {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, var(--couleur-accent), transparent);
+}
+
+/* Logo */
+.footer__logo img {
+  border-radius: 50%;
+  background-color: var(--fond-clair);
+  padding: 4px;
+  box-shadow: 0 0 10px rgba(241, 196, 15, 0.4);
+}
+
+/* Liens */
+.footer__link {
+  color: var(--texte-clair);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--couleur-accent);
+}
+
+/* Réseaux sociaux */
+.footer__socials a {
+  color: var(--texte-clair);
+  font-size: 1.6rem;
+  margin-right: 15px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.footer__socials a:hover {
+  color: var(--couleur-accent);
+  transform: scale(1.1);
+}
