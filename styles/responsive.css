@@ -1,0 +1,112 @@
+
+
+/* Tablettes (≤ 991px) */
+@media (max-width: 991px) {
+  .nutrimaroc-slider {
+    padding: 60px 30px;
+  }
+
+  .slide-title {
+    font-size: 2.2rem;
+  }
+
+  .slide-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .nutrimaroc-slider p {
+    font-size: 1rem;
+  }
+
+  .btn-explorer {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .carousel-inner {
+    border-radius: 15px;
+  }
+}
+
+/* Mobiles (≤ 767px) */
+@media (max-width: 767px) {
+  .nutrimaroc-slider {
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 0;
+  }
+
+  .slide-title {
+    font-size: 2rem;
+  }
+
+  .slide-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .nutrimaroc-slider p {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .slide-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .slide-form select {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-explorer {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .carousel-item--img {
+    border-radius: 10px;
+  }
+
+  .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+/* Petits écrans (≤ 500px) */
+@media (max-width: 500px) {
+  .hero {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 1.8rem;
+  }
+
+  .about img {
+    margin-top: 20px;
+  }
+
+  .specialites .card-text {
+    font-size: 0.9rem;
+  }
+
+  .slide-title {
+    font-size: 1.8rem;
+  }
+
+  .slide-subtitle {
+    font-size: 1rem;
+  }
+
+  .nutrimaroc-slider {
+    padding: 40px 15px;
+  }
+
+  .btn-explorer {
+    padding: 0.5rem;
+  }
+}
