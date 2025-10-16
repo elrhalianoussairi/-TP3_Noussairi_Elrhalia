@@ -1,3 +1,4 @@
+
 /* Navbar */
 .navbar {
   background-color: #fff;
@@ -9,6 +10,100 @@
   background-color: var(--fond-clair);
   padding: 3px;
 }
+
+/* Boutons */
+.btn-primary {
+  background-color: var(--couleur-primaire);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--couleur-secondaire);
+}
+
+/* Cards */
+.recette__card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recette__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.recette__card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* ----------------------------
+   SECTION : CATÉGORIES DE RECETTES
+----------------------------- */
+.recettes-categories {
+  background: #f9f9f9;
+  border-radius: 15px;
+  animation: fadeIn 1.5s ease;
+}
+
+.recettes-categories h2 {
+  color: #2d6a4f;
+  /* vert menthe */
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.categorie-card {
+  background: #fff;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.categorie-card:hover {
+  border-color: #b68900;
+  /* doré */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.categorie-card i {
+  transition: transform 0.3s ease;
+}
+
+.categorie-card:hover i {
+  transform: scale(1.2);
+}
+
+.btn-outline-success:hover,
+.btn-outline-warning:hover,
+.btn-outline-danger:hover {
+  color: #fff !important;
+}
+
+
+/* Formulaire */
+.form-control:focus {
+  border-color: var(--couleur-primaire);
+  box-shadow: 0 0 0 0.2rem rgba(230, 126, 34, 0.25);
+}
+
+/* ---LIGNE DE SÉPARATION ENTRE SECTION*/
+.section-divider {
+  width: 80%;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #b68900, transparent);
+  margin: 0 auto;
+  border-radius: 2px;
+  opacity: 0.7;
+}
+
+/* -FOOTER-*/
+
 
 footer.footer {
   background-color: var(--fond-fonce);
