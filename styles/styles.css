@@ -1,3 +1,9 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* SECTION SLIDER NUTRIMAROC*/
 .nutrimaroc-slider {
   background: linear-gradient(135deg, #f5f3e7, #fffdf8);
@@ -8,7 +14,7 @@
 
 .slide-title {
   font-family: 'Merriweather', serif;
-  color: #2d6a4f; 
+  color: #2d6a4f;
   font-size: 2.8rem;
   animation: fadeInDown 1.2s ease-out;
 }
@@ -31,3 +37,89 @@
   border-radius: 8px;
   padding: 0.6rem;
 }
+
+.btn-explorer {
+  background-color: #2d6a4f;
+  color: white;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s ease;
+  animation: fadeIn 2s ease;
+}
+
+.btn-explorer:hover {
+  background-color: #40916c;
+  transform: translateY(-2px);
+}
+/* -STYLE ACCORDION NUTRIMAROC*/
+.accordion-item {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button {
+  background-color: #fdfcf8;
+  color: #2d6a4f;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #2d6a4f;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(45, 106, 79, 0.25);
+}
+
+.accordion-body {
+  background-color: #fff;
+  color: #4f4f4f;
+  line-height: 1.6;
+}
+
+/* Petits accents dorés */
+.accordion-button::after {
+  filter: hue-rotate(45deg) brightness(1.2);
+}
+
+/* Carousel images */
+.carousel-item--img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+/* Section  */
+section {
+  padding: 60px 0;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
