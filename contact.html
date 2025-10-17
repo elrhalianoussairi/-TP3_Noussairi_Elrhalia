@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NutriMaroc | Contact & FAQ</title>
-
-    <!-- Bootstrap & Icônes -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
-    <!-- Feuilles de style externes -->
+
     <link rel="stylesheet" href="styles/theme.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/components.css">
@@ -19,7 +17,7 @@
 
 <body>
 
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-white">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="accueil.html">
@@ -41,34 +39,34 @@
         </div>
     </nav>
 
-    <!-- Section Contact -->
+    <!-- SECTION CONTACT -->
     <main class="container py-5 mt-5" id="contact">
         <h1 class="text-center mb-4">Contactez-nous</h1>
+
         <form id="formContact" class="col-md-6 mx-auto bg-light p-4 rounded shadow">
             <div class="mb-3">
                 <label for="nom" class="form-label">Nom</label>
-                <input type="text" id="nom" class="form-control" required>
+                <input type="text" id="nom" class="form-control" placeholder="Entrez votre nom" required>
             </div>
             <div class="mb-3">
                 <label for="email" class="form-label">Courriel</label>
-                <input type="email" id="email" class="form-control" required>
+                <input type="email" id="email" class="form-control" placeholder="exemple@courriel.com" required>
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Message</label>
-                <textarea id="message" rows="4" class="form-control" required></textarea>
+                <textarea id="message" rows="4" class="form-control" placeholder="Écrivez votre message ici..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary w-100">Envoyer</button>
         </form>
 
         <div id="confirmation" class="text-center mt-3"></div>
 
-
-        <!-- Ligne  entre les sections -->
+        <!-- Ligne décorative -->
         <div class="section-divider my-5"></div>
 
-        <!-- Section FAQ Nutrition Maroc -->
+        <!-- SECTION FAQ -->
         <section class="my-5">
-            <h2 class="text-center mb-4">Questions fréquentes - Nutrition au Maroc</h2>
+            <h2 class="text-center mb-4">Questions fréquentes — Nutrition au Maroc</h2>
             <p class="text-center mb-5">
                 Découvrez les réponses aux questions les plus courantes sur la nutrition,
                 les habitudes alimentaires et le bien-être à la marocaine 🌿.
@@ -91,7 +89,7 @@
                                     data-bs-parent="#accordionGauche">
                                     <div class="accordion-body">
                                         Les légumineuses, l’huile d’olive, le couscous complet et les fruits secs
-                                        sont des piliers d’une alimentation équilibrée marocaine.
+                                        sont des piliers d’une alimentation marocaine équilibrée.
                                     </div>
                                 </div>
                             </div>
@@ -177,8 +175,7 @@
                                     data-bs-parent="#accordionDroite">
                                     <div class="accordion-body">
                                         Les dattes, le miel d’euphorbe, les amandes, le cumin et l’orge sont riches en
-                                        antioxydants
-                                        et renforcent l’immunité.
+                                        antioxydants et renforcent l’immunité.
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +187,7 @@
         </section>
     </main>
 
-
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer class="footer text-white mt-5 py-4">
         <div class="container">
             <div class="row text-center text-md-start align-items-center">
@@ -223,14 +219,13 @@
             </div>
 
             <div class="footer__divider my-4"></div>
-
             <div class="text-center">
                 <small>© 2025 NutriMaroc — Saveurs du Maroc. Tous droits réservés.</small>
             </div>
         </div>
     </footer>
 
-    <!-- Scripts -->
+    <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/contact.js"></script>
 </body>
