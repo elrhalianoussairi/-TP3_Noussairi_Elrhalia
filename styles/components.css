@@ -1,8 +1,7 @@
-
-/* Navbar */
+/* NAVIGATION*/
 .navbar {
   background-color: #fff;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .navbar-brand img {
@@ -11,25 +10,26 @@
   padding: 3px;
 }
 
-/* Boutons */
+/* BOUTONS */
 .btn-primary {
   background-color: var(--couleur-primaire);
   border: none;
   border-radius: 8px;
   padding: 10px 20px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
   background-color: var(--couleur-secondaire);
 }
 
-/* Cards */
+/* CARTES DE RECETTES */
 .recette__card {
   border: none;
   border-radius: 12px;
   overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
 }
 
 .recette__card:hover {
@@ -39,21 +39,20 @@
 
 .recette__card img {
   height: 220px;
+  width: 100%;
   object-fit: cover;
 }
 
-/* ----------------------------
-   SECTION : CATÉGORIES DE RECETTES
------------------------------ */
+/*  CATÉGORIES DE RECETTES*/
 .recettes-categories {
   background: #f9f9f9;
   border-radius: 15px;
   animation: fadeIn 1.5s ease;
+  padding: 3rem 1rem;
 }
 
 .recettes-categories h2 {
-  color: #2d6a4f;
-  /* vert menthe */
+  color: #2d6a4f; /* Vert menthe */
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
@@ -61,12 +60,13 @@
 .categorie-card {
   background: #fff;
   border: 2px solid transparent;
+  border-radius: 12px;
   transition: all 0.4s ease;
+  padding: 1.5rem;
 }
 
 .categorie-card:hover {
-  border-color: #b68900;
-  /* doré */
+  border-color: #b68900; /* Doré */
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
@@ -79,32 +79,30 @@
   transform: scale(1.2);
 }
 
+/* États hover pour boutons de catégories */
 .btn-outline-success:hover,
 .btn-outline-warning:hover,
 .btn-outline-danger:hover {
   color: #fff !important;
 }
 
-
-/* Formulaire */
+/*  FORMULAIRE */
 .form-control:focus {
   border-color: var(--couleur-primaire);
   box-shadow: 0 0 0 0.2rem rgba(230, 126, 34, 0.25);
 }
 
-/* ---LIGNE DE SÉPARATION ENTRE SECTION*/
+/* LIGNE DE SÉPARATION ENTRE SECTIONS */
 .section-divider {
   width: 80%;
   height: 3px;
   background: linear-gradient(to right, transparent, #b68900, transparent);
-  margin: 0 auto;
+  margin: 3rem auto;
   border-radius: 2px;
   opacity: 0.7;
 }
 
-/* -FOOTER-*/
-
-
+/*  PIED DE PAGE (FOOTER) */
 footer.footer {
   background-color: var(--fond-fonce);
   color: var(--texte-clair);
@@ -118,9 +116,10 @@ footer.footer {
   height: 2px;
   width: 100%;
   background: linear-gradient(90deg, transparent, var(--couleur-accent), transparent);
+  margin: 1.5rem 0;
 }
 
-/* Logo */
+/* Logo du footer */
 .footer__logo img {
   border-radius: 50%;
   background-color: var(--fond-clair);
@@ -128,28 +127,29 @@ footer.footer {
   box-shadow: 0 0 10px rgba(241, 196, 15, 0.4);
 }
 
-/* Liens */
+/* Liens du footer */
 .footer__link {
   color: var(--texte-clair);
   text-decoration: none;
   display: block;
   margin-bottom: 8px;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 .footer__link:hover {
   color: var(--couleur-accent);
 }
 
-/* Réseaux sociaux */
+/* Icônes réseaux sociaux */
 .footer__socials a {
   color: var(--texte-clair);
   font-size: 1.6rem;
   margin-right: 15px;
-  transition: color 0.3s, transform 0.2s;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .footer__socials a:hover {
   color: var(--couleur-accent);
   transform: scale(1.1);
 }
+

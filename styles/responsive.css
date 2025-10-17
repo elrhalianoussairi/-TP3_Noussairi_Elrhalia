@@ -1,6 +1,4 @@
-
-
-/* Tablettes (≤ 991px) */
+/* TABLETTES (≤ 991px)*/
 @media (max-width: 991px) {
   .nutrimaroc-slider {
     padding: 60px 30px;
@@ -28,7 +26,7 @@
   }
 }
 
-/* Mobiles (≤ 767px) */
+/* MOBILES (≤ 767px) */
 @media (max-width: 767px) {
   .nutrimaroc-slider {
     text-align: center;
@@ -51,8 +49,10 @@
   }
 
   .slide-form {
+    display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
 
   .slide-form select {
@@ -75,11 +75,14 @@
   }
 }
 
-/* Petits écrans (≤ 500px) */
+/* PETITS ÉCRANS (≤ 500px)*/
 @media (max-width: 500px) {
   .hero {
     height: 80vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .hero__title {
@@ -108,5 +111,6 @@
 
   .btn-explorer {
     padding: 0.5rem;
+    font-size: 0.95rem;
   }
 }
