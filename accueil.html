@@ -1,212 +1,226 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NutriMaroc | Saveurs du Maroc</title>
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="styles/theme.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/components.css">
-  <link rel="stylesheet" href="styles/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriMaroc | Saveurs du Maroc</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-white">
-    <div class="container">
-      <!-- Logo et texte -->
-      <a class="navbar-brand d-flex align-items-center" href="accueil.html">
-        <img src="images/logo.png" alt="Logo NutriMaroc" width="45" height="45" class="me-2">
-        <span class="fw-bold text-uppercase">NutriMaroc</span>
-      </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-white">
+        <div class="container">
+            <!-- Logo et texte -->
+            <a class="navbar-brand d-flex align-items-center" href="accueil.html">
+                <img src="images/logo.png" alt="Logo NutriMaroc" width="45" height="45" class="me-2">
+                <span class="fw-bold text-uppercase">NutriMaroc</span>
+            </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Basculer la navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Basculer la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="accueil.html" class="nav-link active">Accueil</a></li>
-          <li class="nav-item"><a href="recettes.html" class="nav-link">Recettes</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Contenu principal -->
-  <main id="content" class="container-xl mt-5">
-
-    <!-- Section Slider -->
-    <section class="row align-items-center nutrimaroc-slider">
-      <div class="col-12 col-md-5 mb-5">
-        <h1 class="slide-title"><strong>NutriMaroc</strong></h1>
-        <h4 class="slide-subtitle">Saveurs marocaines, santé et tradition</h4>
-        <p>
-          Découvrez le meilleur de la cuisine marocaine : tajines parfumés, couscous dorés et desserts à la fleur d’oranger.
-          Chaque recette allie goût, équilibre et bien-être.
-        </p>
-        <p>
-          Explorez nos plats typiques et nos conseils nutrition inspirés par la richesse du terroir marocain.
-        </p>
-        <form class="d-flex align-items-center slide-form">
-          <select class="form-select" aria-label="Choisir une catégorie">
-            <option selected>Choisir une catégorie</option>
-            <option value="tajine">Tajines</option>
-            <option value="couscous">Couscous</option>
-            <option value="dessert">Desserts marocains</option>
-          </select>
-          <button type="submit" class="btn btn-explorer ms-2">Explorer</button>
-        </form>
-      </div>
-
-      <div class="col-12 col-md-7">
-        <div id="carousel-NutriMaroc" class="carousel slide shadow-lg rounded-3 overflow-hidden">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositive 1"></button>
-            <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="1" aria-label="Diapositive 2"></button>
-            <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="2" aria-label="Diapositive 3"></button>
-          </div>
-
-          <div class="carousel-inner ratio ratio-16x9">
-            <div class="carousel-item active">
-              <img src="images/slide1.jpg" class="d-block w-100 carousel-item--img" alt="Tajine marocain traditionnel">
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="accueil.html" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="recettes.html" class="nav-link">Recettes</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
             </div>
-            <div class="carousel-item">
-              <img src="images/slide2.jpg" class="d-block w-100 carousel-item--img" alt="Couscous aux légumes et pois chiches">
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main id="content" class="container-xl mt-5">
+
+        <!-- Section Slider -->
+        <section class="row align-items-center nutrimaroc-slider">
+            <div class="col-12 col-md-5 mb-5">
+                <h1 class="slide-title"><strong>NutriMaroc</strong></h1>
+                <h4 class="slide-subtitle">Saveurs marocaines, santé et tradition</h4>
+                <p>
+                    Découvrez le meilleur de la cuisine marocaine : tajines parfumés, couscous dorés et desserts à la
+                    fleur d’oranger.
+                    Chaque recette allie goût, équilibre et bien-être.
+                </p>
+                <p>
+                    Explorez nos plats typiques et nos conseils nutrition inspirés par la richesse du terroir marocain.
+                </p>
+                <form class="d-flex align-items-center slide-form">
+                    <select class="form-select" aria-label="Choisir une catégorie">
+                        <option selected>Choisir une catégorie</option>
+                        <option value="tajine">Tajines</option>
+                        <option value="couscous">Couscous</option>
+                        <option value="dessert">Desserts marocains</option>
+                    </select>
+                    <button type="submit" class="btn btn-explorer ms-2">Explorer</button>
+                </form>
             </div>
-            <div class="carousel-item">
-              <img src="images/slide3.jpg" class="d-block w-100 carousel-item--img" alt="Pastilla sucrée-salée au poulet et amandes">
+
+            <div class="col-12 col-md-7">
+                <div id="carousel-NutriMaroc" class="carousel slide shadow-lg rounded-3 overflow-hidden">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Diapositive 1"></button>
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="1"
+                            aria-label="Diapositive 2"></button>
+                        <button type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide-to="2"
+                            aria-label="Diapositive 3"></button>
+                    </div>
+
+                    <div class="carousel-inner ratio ratio-16x9">
+                        <div class="carousel-item active">
+                            <img src="images/slide1.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Tajine marocain traditionnel">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide2.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Couscous aux légumes et pois chiches">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/slide3.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Pastilla sucrée-salée au poulet et amandes">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-NutriMaroc"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Précédent</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-NutriMaroc"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Suivant</span>
+                    </button>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Précédent</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel-NutriMaroc" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Suivant</span>
-          </button>
-        </div>
-      </div>
-    </section>
+        <!-- Ligne décorative -->
+        <div class="section-divider my-5"></div>
 
-    <!-- Ligne décorative -->
-    <div class="section-divider my-5"></div>
-
-    <!-- À propos -->
-    <section class="about container my-5">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h2>À propos</h2>
-          <p>
-            NutriMaroc est une célébration de la cuisine marocaine — de ses épices, de ses couleurs et de son hospitalité.
-            Découvrez des plats traditionnels revisités et des recettes familiales simples à réaliser.
-          </p>
-        </div>
-        <div class="col-md-6 text-center">
-          <img src="images/apropos.jpg" alt="Chef marocain préparant un plat" class="img-fluid rounded-4 shadow">
-        </div>
-      </div>
-    </section>
-
-    <!-- Ligne décorative -->
-    <div class="section-divider my-5"></div>
-
-    <!-- Spécialités -->
-    <section id="section-recettes" class="specialites py-5 bg-light">
-      <div class="container text-center">
-        <h2 class="mb-4">Nos spécialités</h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card recette__card">
-              <img src="images/couscous.jpeg" class="card-img-top" alt="Couscous royal">
-              <div class="card-body">
-                <h5 class="card-title">Couscous royal</h5>
-                <p class="card-text">Un plat traditionnel, symbole de partage et de convivialité.</p>
-              </div>
+        <!-- À propos -->
+        <section class="about container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>À propos</h2>
+                    <p>
+                        NutriMaroc est une célébration de la cuisine marocaine — de ses épices, de ses couleurs et de
+                        son hospitalité.
+                        Découvrez des plats traditionnels revisités et des recettes familiales simples à réaliser.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/apropos.jpg" alt="Chef marocain préparant un plat"
+                        class="img-fluid rounded-4 shadow">
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="col-md-4">
-            <div class="card recette__card">
-              <img src="images/tajine.jpg" class="card-img-top" alt="Tajine d’agneau">
-              <div class="card-body">
-                <h5 class="card-title">Tajine d’agneau</h5>
-                <p class="card-text">Cuit lentement avec des pruneaux, des amandes et des épices marocaines.</p>
-              </div>
+        <!-- Ligne décorative -->
+        <div class="section-divider my-5"></div>
+
+        <!-- Spécialités -->
+        <section id="section-recettes" class="specialites py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="mb-4">Nos spécialités</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card recette__card">
+                            <img src="images/couscous.jpeg" class="card-img-top" alt="Couscous royal">
+                            <div class="card-body">
+                                <h5 class="card-title">Couscous royal</h5>
+                                <p class="card-text">Un plat traditionnel, symbole de partage et de convivialité.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card recette__card">
+                            <img src="images/tajine.jpg" class="card-img-top" alt="Tajine d’agneau">
+                            <div class="card-body">
+                                <h5 class="card-title">Tajine d’agneau</h5>
+                                <p class="card-text">Cuit lentement avec des pruneaux, des amandes et des épices
+                                    marocaines.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card recette__card">
+                            <img src="images/pastilla.jpg" class="card-img-top" alt="Pastilla marocaine">
+                            <div class="card-body">
+                                <h5 class="card-title">Pastilla</h5>
+                                <p class="card-text">Délicieuse combinaison sucrée-salée de poulet et d’amandes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="col-md-4">
-            <div class="card recette__card">
-              <img src="images/pastilla.jpg" class="card-img-top" alt="Pastilla marocaine">
-              <div class="card-body">
-                <h5 class="card-title">Pastilla</h5>
-                <p class="card-text">Délicieuse combinaison sucrée-salée de poulet et d’amandes.</p>
-              </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-white mt-5">
+        <div class="container">
+            <div class="row text-center text-md-start align-items-center">
+
+                <!-- Logo et description -->
+                <div class="col-md-4 mb-4">
+                    <div class="footer__logo mb-3">
+                        <img src="images/logo.png" alt="Logo NutriMaroc" width="80">
+                    </div>
+                    <p>
+                        <strong>NutriMaroc</strong> célèbre la richesse de la cuisine marocaine —
+                        une invitation au voyage à travers les épices, la générosité et la tradition.
+                    </p>
+                </div>
+
+                <!-- Liens utiles -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase mb-3">Liens utiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="accueil.html" class="footer__link">Accueil</a></li>
+                        <li><a href="recettes.html" class="footer__link">Recettes</a></li>
+                        <li><a href="contact.html" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Réseaux sociaux -->
+                <div class="col-md-4 mb-4 footer__socials">
+                    <h5 class="text-uppercase mb-3">Suivez-nous</h5>
+                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+
             </div>
-          </div>
+
+            <!-- Ligne dorée décorative -->
+            <div class="footer__divider my-4"></div>
+
+            <!-- Bas du footer -->
+            <div class="text-center">
+                <small>© 2025 NutriMaroc — Saveurs du Maroc. Tous droits réservés.</small>
+            </div>
         </div>
-      </div>
-    </section>
+    </footer>
 
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer text-white mt-5">
-    <div class="container">
-      <div class="row text-center text-md-start align-items-center">
-
-        <!-- Logo et description -->
-        <div class="col-md-4 mb-4">
-          <div class="footer__logo mb-3">
-            <img src="images/logo.png" alt="Logo NutriMaroc" width="80">
-          </div>
-          <p>
-            <strong>NutriMaroc</strong> célèbre la richesse de la cuisine marocaine —
-            une invitation au voyage à travers les épices, la générosité et la tradition.
-          </p>
-        </div>
-
-        <!-- Liens utiles -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Liens utiles</h5>
-          <ul class="list-unstyled">
-            <li><a href="accueil.html" class="footer__link">Accueil</a></li>
-            <li><a href="recettes.html" class="footer__link">Recettes</a></li>
-            <li><a href="contact.html" class="footer__link">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Réseaux sociaux -->
-        <div class="col-md-4 mb-4 footer__socials">
-          <h5 class="text-uppercase mb-3">Suivez-nous</h5>
-          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-        </div>
-
-      </div>
-
-      <!-- Ligne dorée décorative -->
-      <div class="footer__divider my-4"></div>
-
-      <!-- Bas du footer -->
-      <div class="text-center">
-        <small>© 2025 NutriMaroc — Saveurs du Maroc. Tous droits réservés.</small>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="js/index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
